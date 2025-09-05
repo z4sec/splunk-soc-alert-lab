@@ -22,12 +22,12 @@ The following table summarizes the configured alerts, their purpose, and why the
 ### Event ID 1102: Security Log Cleared
 - **Alert Configuration**: Triggers on `EventCode=1102` in Windows Security logs.
 - **Screenshots**:
-  - ![Index Search](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detection/1-%20index-search.png)
-  - ![Search Result](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detection/2-%20search-result.png)
-  - ![Edit Alert](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detection/3-%20edit-alert.png)
-  - ![Alert Saved](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detection/4-%20alert-saved.png)
-  - ![Alert Triggered](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detection/5-%20alert-triggered.png)
-  - Full folder: [EVENT = 1102 Security Log Clear Detection](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detection/)
+  - ![Index Search](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detetction/1-%20index-search.png)
+  - ![Search Result](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detetction/2-%20search-result.png)
+  - ![Edit Alert](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detetction/3-%20edit-alert.png)
+  - ![Alert Saved](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detetction/4-%20alert-saved.png)
+  - ![Alert Triggered](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detetction/5-%20alert-triggered.png)
+  - Full folder: [EVENT = 1102 Security Log Clear Detetction](EVENT%20%3D%201102%20Security%20Log%20Clear%20Detetction/)
 
 ### Event ID 4625: Failed Login Attempts
 - **Alert Configuration**: Triggers on `EventCode=4625` with a threshold (e.g., 5 failed attempts in 5 minutes).
@@ -85,7 +85,7 @@ Each event ID folder contains 4-5 screenshots showing:
 - Raw event logs in Splunk.
 - Alert configuration settings.
 - Triggered alerts.
-Browse [screenshots/](.) for all images.
+Browse screenshots for all images.
 
 ## Future Improvements
 - Integrate Snort IDS/IPS for network monitoring.
